@@ -1,0 +1,10 @@
+{
+  "model_name": "random_forest_calibrated",
+  "params": {},
+  "metrics": {
+    "accuracy": 0.9953161592505855,
+    "report": "              precision    recall  f1-score   support\n\n           0     1.0000    0.9876    0.9938       323\n           1     0.9925    1.0000    0.9962       531\n\n    accuracy                         0.9953       854\n   macro avg     0.9963    0.9938    0.9950       854\nweighted avg     0.9954    0.9953    0.9953       854\n",
+    "roc_auc": 0.9998746450706361
+  },
+  "training_rows": 3415
+}

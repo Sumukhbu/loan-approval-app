@@ -1,0 +1,11 @@
+{
+  "training_date": "2025-09-16T07:40:28.169367Z",
+  "model_type": "rf",
+  "best_params": {
+    "n_estimators": 300,
+    "max_depth": 11,
+    "min_samples_split": 11
+  },
+  "test_accuracy": 0.9633967789165446,
+  "test_roc_auc": 0.9954856361149111
+}

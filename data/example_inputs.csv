@@ -1,0 +1,4 @@
+no_of_dependents,education,self_employed,income_annum,loan_amount,loan_term,cibil_score,residential_assets_value,commercial_assets_value,luxury_assets_value,bank_asset_value
+0,Graduate,No,1200000,500000,60,760,2500000,0,200000,500000
+2,Not Graduate,Yes,600000,800000,120,620,1500000,500000,100000,200000
+1,Graduate,No,350000,300000,36,680,800000,0,50000,100000

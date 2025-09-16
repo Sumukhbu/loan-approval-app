@@ -1,0 +1,2 @@
+loan_id,no_of_dependents,education,self_employed,income_annum,loan_amount,loan_term,cibil_score,residential_assets_value,commercial_assets_value,luxury_assets_value,bank_asset_value,pred,prob
+L001,1,Graduate,No,500000,200000,12,720,2400000,1760000,2270000,8000000, Approved,0.006284640343324234
