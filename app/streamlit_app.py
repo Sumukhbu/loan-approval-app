@@ -17,7 +17,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.base import BaseEstimator
 from sklearn.compose import ColumnTransformer
 
-from app.feature_engineering import add_engineered_features
+from feature_engineering import add_engineered_features
 
 st.set_page_config(layout="centered", page_title="Loan Approval — Predict & Explain (Local Importance)")
 
