@@ -6,6 +6,11 @@ Streamlit app — Local permutation importance (polished)
 - Suggestions grouped (negatives first, positives second)
 - Keeps feature engineering, model loading, debug expanders, and width="stretch"
 """
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -473,7 +478,8 @@ if predict_btn:
             # DataFrame display (pretty names + percent)
             contrib_df = pd.DataFrame([(prettify_feature_name(f), round(v, 4)) for f, v in contribs_percent_sorted],
                                       columns=["Feature", "Contribution (%)"])
-            st.dataframe(contrib_df, width="stretch")
+            st.dataframe(contrib_df, use_container_width=True)
+
 
             # ---------- Combine with rule-based reasons ----------
             approve_reasons, reject_reasons = rule_based_reasons(mapped)
